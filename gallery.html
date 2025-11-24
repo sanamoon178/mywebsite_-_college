@@ -1,0 +1,389 @@
+
+
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+
+         <div class="main">
+
+        <section class="signup">
+            <!-- <img src="images/signup-bg.jpg" alt=""> -->
+            <div class="container">
+                <div class="signup-content">
+                    <form method="POST" id="signup-form" class="signup-form">
+                        <h2 class="form-title">Create account</h2>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="name" id="name" placeholder="Your Name"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" name="email" id="email" placeholder="Your Email"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="password" id="password" placeholder="Password"/>
+                            <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-input" name="re_password" id="re_password" placeholder="Repeat your password"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                            <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="submit" id="submit" class="form-submit" value="Sign up"/>
+                        </div>
+                    </form>
+                    <p class="loginhere">
+                        Have already an account ? <a href="#" class="loginhere-link">Login here</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+
+     <nav class="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#eve">Upcoming Events</a></li>
+            <li><a class="dropdown-item" href="#fea">Upcoming Features</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#fre">Fresher's Moments</a></li>
+          </ul>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-warning" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="row">
+
+    <div class="row gy-5"></div>
+    <div class="row gy-5"></div>
+    <div class="row gy-5"></div>
+
+    <div class="col-md-12 text-center">
+        <h1 class="text-center head121">OUR GALLERY <br>& <br> OUR MEMORABLE MOMENTS</h1>
+        <br>
+        <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Join Now</button>
+    </div>
+</div>
+    
+
+
+
+<div class="row text-center" id="fea">
+    <div class="row gy-5"></div>
+    <div class="row gy-5"></div>
+    <div class="row gy-5"></div>
+    <div class="row gy-5"></div>
+    
+
+    <div class="row text-center">
+    <div class="col-md-12">
+        <h1>UPCOMING FEATURES OF GALLERY</h1>
+    </div>
+</div>
+
+    <div class="col-md-3 col-sm-6">
+        <img src="pic/slow2.jpg" alt="" class="w-75 img1">
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <img src="pic/slow6.jpg" alt="" class="w-75 img1">
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <img src="pic/slow5.jpg" alt="" class="w-75 img1">
+    </div>
+    <div class="col-md-3 col-sm-6">
+       <img src="pic/slow4.jpg" alt="" class="w-75 img1">
+    </div>
+
+</div>
+
+
+<div class="row text-center">
+ 
+    
+    <div class="col-md-3 col-sm-6">
+        <img src="pic/slow2.jpg" alt="" class="w-75 img1">
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <img src="pic/slow6.jpg" alt="" class="w-75 img1">
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <img src="pic/slow5.jpg" alt="" class="w-75 img1">
+    </div>
+    <div class="col-md-3 col-sm-6">
+        <img src="pic/slow4.jpg" alt="" class="w-75 img1">
+    </div>
+
+</div>
+
+
+
+<div class="row mt-5">
+
+    
+
+
+    <div class="col-md-6 text-center">
+        <h1 class="">STUDENT SAY ABOUT US!</h1>
+        <img src="pic/about_us.png" alt="" class="w-50 img2">
+    </div>
+    <div class="col-md-6">
+        <img src="pic/campus5.webp" alt="" class="w-100">
+    </div>
+</div>
+
+
+<div class="row gy-5" id="eve">
+
+    <div class="row gy-5"></div>
+    <div class="row gy-5"></div>
+    <div class="row gy-5"></div>
+
+    <div class="row text-center">
+        <div class="col-md-12">
+            <h1>OUR UPCOMING EVENTS</h1>
+        </div>
+    </div>
+
+    <div class="col-md-2"></div>
+    <div class="col-md-3 text-center">
+        <img src="pic/event_1.jpg" alt="" class="w-100 img1">
+        <h3>STUDENT EVENTS</h3>
+    </div>
+    <div class="col-md-3 text-center">
+        <img src="pic/event_2.jpg" alt="" class="w-100 img1">
+        <h3>STUDENT LIBRARY</h3>
+    </div>
+    <div class="col-md-3 text-center">
+        <img src="pic/event_3.jpg" alt="" class="w-100 img1">
+        <h3>MEETING PLACE</h3>
+    </div>
+</div>
+
+
+
+    <div class="row text-center mx-3" id="fre">
+
+        <div class="row gy-5"></div>
+        <div class="row gy-5"></div>
+        <div class="row gy-5"></div>
+        <div class="row gy-5"></div>
+
+        <div class="row text-center">
+            <div class="col-md-12">
+                <h1>FRESHER'S ORIENTATION MOMENTS</h1>
+            </div>
+        </div>
+
+        <div class="row gy-5"></div>
+
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <img src="pic/1235.jpg" alt="" class="w-100 img1">
+            <p>College is a place where students learn</p>
+        </div>
+         <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <img src="pic/1236.jpg" alt="" class="w-100 img1">
+            <p>College is a place where students learn</p>
+             
+        </div>
+         <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <img src="pic/1237.jpg" alt="" class="w-100 img1">
+            <p>College is a place where students learn</p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <img src="pic/4.jpg" alt="" class="w-100 img1">
+            <p>College is a place where students learn</p>
+        </div>
+    </div>
+
+    <div class="row text-center mt-3 mx-3">
+        <div class="row gy-5"></div>
+
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <img src="pic/1238.jpg" alt="" class="w-100 img1">
+            <p>College is a place where students learn</p>
+        </div>
+         <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <img src="pic/1239.jpg" alt="" class="w-100 img1">
+            <p>College is a place where students learn</p>
+        </div>
+         <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <img src="pic/123456.jfif" alt="" class="w-100 img1">
+            <p>College is a place where students learn</p>
+        </div>
+         <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <img src="pic/neom-eNIGxtOdB10-unsplash.jpg" alt="" class="w-100 img1">
+            <p>College is a place where students learn</p>
+        </div>
+    </div>
+
+    <div class="row text-center mt-3 mx-3">
+
+        <div class="row gy-5"></div>
+
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <img src="pic/courses_provide_4.jpg" alt="" class="w-100 img1">
+            <p>College is a place where students learn</p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <img src="pic/courses_provide_5.jpg" alt="" class="w-100 img1">
+            <p>College is a place where students learn</p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <img src="pic/courses_provide_6.jpg" alt="" class="w-100 img1">
+            <p>College is a place where students learn</p>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            <img src="pic/courses_provide_6.jpg" alt="" class="w-100 img1">
+            <p>College is a place where students learn</p>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="row gy-5"></div>
+        <div class="row gy-5"></div>
+        <div class="row gy-5"></div>
+        <div class="col-md-12">
+            <img src="pic/teamgroup.png" alt="" class="w-100">
+        </div>
+    </div>
+
+
+
+
+     <div class="row text-center bg-black">
+        <div class="col-md-3">
+            <img src="pic/look1.png" alt="" class="w-50">
+            <img src="pic/look1.png" alt="" class="w-50">
+        </div>
+        <div class="col-md-9 mt-5 my-1">
+            <h1 class="mt-5 me-4 text-white">Become A Instructor</h1>
+            <p class="mt-5 text-white">Lorem ipsum dolor sit amet mollis felis dapibus arcu donec viverra. Pede phasellus eget. Etiam maecenas vel vici quis dictum rutrum nec nisi et.</p>
+            <button class="btn btn-warning mt-3">Get Stated Now</button>
+        </div>
+       
+    </div>
+
+  
+
+
+    <div class="row text-center bg-black text-white">
+        <div class="col-md-4 mt-5">
+            <h1>Education's Important</h1>
+            <p class="text-justify">Lorem ipsum dolor sit amet mollis felis  dapibus  <br>arcu donec viverra. Pede phasellus eget. Etiam maecenas<br>  vel vici quis dictum rutrum nec nisi et. <br>
+    vel vici quis dictum rutrum nec nisi et.</p>
+        </div>
+        <div class="col-md-2 mt-5 ">
+             <h1 class="">Useful Links</h1>
+      <a href=""> <p class="">About Us <br>
+Blog
+<br>
+Developers
+<br>
+Services
+<br>
+Contact</p></a>
+        </div>
+        <div class="col-md-2 mt-5">
+            <h1 class="">Information</h1>
+      <a href=""><p class="">Campus Tour<br>
+Student's Life
+<br>
+Scholarship
+<br>
+Admission
+<br>
+Leadership</p></a>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-3 mt-5 ">
+             <h1 class="">Contact Us</h1>
+       <p class="">Fell free to get in touch us via <br> Phone or send us a message <br>
+</p>
+
+        </div>
+    </div>
+
+
+
+<script src="main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
